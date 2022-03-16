@@ -13,3 +13,6 @@
 // } else {
 //     document.getElementById("esito").innerHTML = `<div>La prima parola inserita <span class="blue">"${parolaUno}"</span> ed la seconda parola inserita <span class="blue">"${parolaDue}"</span> sono uguali</span> con rispettivamente con ben ${parolaUno.length} e ${parolaDue.length} lettere </div>`;
 // }
+
+// Snack2
+// Generatore di “nomi cognomi” casuali: il Grande Gatsby ha  una lista di nomi e una lista di cognomi, e da queste vuole generare una falsa lista di invitati con nome e cognome.
