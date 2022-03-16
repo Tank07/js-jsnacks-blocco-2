@@ -4,6 +4,8 @@
 
 let arrayUno = [1,2,3,4,5,6,7,8,9,10];
 
+// Porca miseria perchè mi da undefined
+
 let arrayDue = [1,2,3];
 
 console.log(arrayUno.lenght,arrayDue.length)
@@ -12,9 +14,11 @@ for (i=0; i<1000; i++){
 
     if(arrayUno.lenght < arrayDue.lenght){
         arrayUno.push(Math.floor(Math.random()* 10))
-
+        console.log(i,arrayUno.lenght,arrayDue.length)
+        
     } else if (arrayUno.lenght > arrayDue.lenght){
         arrayDue.push(Math.floor(Math.random()* 10))
+        console.log(i,arrayUno.lenght,arrayDue.length)
 
     } else if (arrayUno.lenght == arrayDue.lenght){
         console.log(arrayUno.lenght,arrayDue.length)
