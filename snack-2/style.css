@@ -1,19 +1,21 @@
-*{
-    font-style: italic;
-    font-size: 16.5px;
-}
-
 body{
-    background-image: url("./gatsby.jpg");
+    background-color: whitesmoke;
+    background-image: url("./Gatsby_Booleaner.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-    background-color: whitesmoke;
+    background-size: 50%;
+    margin-top: 0px;
 }
 
-/* .white{
-    color: white;
-} */
+h1{
+    margin-top: 0;
+}
+
+ .white{
+    font-style: italic;
+    font-size: 16.5px;
+} 
 
 .blue{
     color: blue;

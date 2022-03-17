@@ -27,7 +27,7 @@ console.log(cognomi.length)
 for (i=1; i < nomi.length; i++){
     let randomNome = Math.floor(Math.random()*nomi.length);
     let randomCognome = Math.floor(Math.random()*cognomi.length);
-    document.getElementById("esito").innerHTML += `<div> <span class="white">L'invitato numero ${i} per l'esclusiva festa per i Booleani in casa Gatsby è </span> <span class="blue">"${nomi[randomNome]} ${cognomi[randomCognome]}"</span></div>`;
+    document.getElementById("esito").innerHTML += `<div> <span class="white">L'invitato numero ${i} per l'esclusiva festa dei Booleani in casa Gatsby è </span> <span class="blue">"${nomi[randomNome]} ${cognomi[randomCognome]}"</span></div>`;
 
 }
 
